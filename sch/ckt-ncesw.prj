@@ -1,0 +1,4 @@
+schematics ckt-ncesw.sch
+output-name ../pcb/ckt-ncesw
+skip-m4
+elements-dir ../../ise-footprints
