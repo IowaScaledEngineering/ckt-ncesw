@@ -787,20 +787,8 @@ Symbol['~' 12.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "5.00mil")
-Via[1265.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1315.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[630.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[680.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1865.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1915.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1915.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1865.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1315.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1265.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1565.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1615.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1565.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[1615.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[5355.00mil 845.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[5410.00mil 845.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[5410.00mil 900.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
@@ -815,12 +803,24 @@ Via[5465.00mil 955.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[5465.00mil 1010.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[5130.00mil 740.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[5180.00mil 775.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2465.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2515.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2515.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[2465.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[845.00mil 925.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[4670.00mil 950.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1415.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1465.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2015.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2065.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2065.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2015.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1465.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1415.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1715.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1765.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1715.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[1765.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2615.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2665.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2665.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[2615.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 
 Element["" "TERMBLK2_200MIL" "J8" "unknown" 655.00mil 210.00mil -25.00mil -30.00mil 0 100 ""]
 (
@@ -862,52 +862,6 @@ Element["" "TO220" "U1" "unknown" 5305.00mil 1140.00mil 198.42mil 196.85mil 2 13
 	ElementLine [-196.85mil 59.05mil 196.85mil 59.05mil 10.00mil]
 	ElementLine [-196.85mil -98.43mil -196.85mil 118.11mil 10.00mil]
 	ElementLine [196.85mil -98.43mil 196.85mil 118.11mil 10.00mil]
-
-	)
-
-Element["" "modular_6p6c_lp.fp" "J5" "unknown" 1290.00mil 1150.00mil -23.43mil -30.00mil 0 100 ""]
-(
-	Attribute("author" "Alexander Kurz")
-	Attribute("copyright" "2009 Alexander Kurz")
-	Attribute("use-license" "Unlimited")
-	Attribute("dist-license" "CC-BY-SA-3.0")
-	Attribute("height" "11.5mm")
-	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
-	Pin[-125.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
-	Pin[-75.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
-	Pin[-25.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
-	Pin[25.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
-	Pin[75.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
-	Pin[125.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
-	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	ElementLine [260.00mil -403.00mil 260.00mil 310.00mil 20.00mil]
-	ElementLine [-260.00mil -403.00mil -260.00mil 310.00mil 20.00mil]
-	ElementLine [-260.00mil -403.00mil 260.00mil -403.00mil 20.00mil]
-	ElementLine [-260.00mil 310.00mil 260.00mil 310.20mil 20.00mil]
-
-	)
-
-Element["" "modular_6p6c_lp.fp" "J3" "unknown" 1290.00mil 320.00mil -23.43mil -30.00mil 0 100 ""]
-(
-	Attribute("author" "Alexander Kurz")
-	Attribute("copyright" "2009 Alexander Kurz")
-	Attribute("use-license" "Unlimited")
-	Attribute("dist-license" "CC-BY-SA-3.0")
-	Attribute("height" "11.5mm")
-	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
-	Pin[125.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
-	Pin[75.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
-	Pin[25.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
-	Pin[-25.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
-	Pin[-75.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
-	Pin[-125.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
-	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	ElementLine [-260.00mil -310.00mil -260.00mil 403.00mil 20.00mil]
-	ElementLine [260.00mil -310.00mil 260.00mil 403.00mil 20.00mil]
-	ElementLine [-260.00mil 403.00mil 260.00mil 403.00mil 20.00mil]
-	ElementLine [260.00mil -310.00mil -260.00mil -310.20mil 20.00mil]
 
 	)
 
@@ -987,52 +941,6 @@ Element["" "DO-201" "Z1" "unknown" 655.00mil 455.00mil -25.00mil -30.00mil 0 100
 
 	)
 
-Element["" "modular_6p6c_lp.fp" "J4" "unknown" 1890.00mil 320.00mil -23.43mil -30.00mil 0 100 ""]
-(
-	Attribute("author" "Alexander Kurz")
-	Attribute("copyright" "2009 Alexander Kurz")
-	Attribute("use-license" "Unlimited")
-	Attribute("dist-license" "CC-BY-SA-3.0")
-	Attribute("height" "11.5mm")
-	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
-	Pin[125.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
-	Pin[75.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
-	Pin[25.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
-	Pin[-25.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
-	Pin[-75.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
-	Pin[-125.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
-	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	ElementLine [-260.00mil -310.00mil -260.00mil 403.00mil 20.00mil]
-	ElementLine [260.00mil -310.00mil 260.00mil 403.00mil 20.00mil]
-	ElementLine [-260.00mil 403.00mil 260.00mil 403.00mil 20.00mil]
-	ElementLine [260.00mil -310.00mil -260.00mil -310.20mil 20.00mil]
-
-	)
-
-Element["" "modular_6p6c_lp.fp" "J6" "unknown" 1890.00mil 1150.00mil -23.43mil -30.00mil 0 100 ""]
-(
-	Attribute("author" "Alexander Kurz")
-	Attribute("copyright" "2009 Alexander Kurz")
-	Attribute("use-license" "Unlimited")
-	Attribute("dist-license" "CC-BY-SA-3.0")
-	Attribute("height" "11.5mm")
-	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
-	Pin[-125.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
-	Pin[-75.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
-	Pin[-25.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
-	Pin[25.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
-	Pin[75.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
-	Pin[125.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
-	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	ElementLine [260.00mil -403.00mil 260.00mil 310.00mil 20.00mil]
-	ElementLine [-260.00mil -403.00mil -260.00mil 310.00mil 20.00mil]
-	ElementLine [-260.00mil -403.00mil 260.00mil -403.00mil 20.00mil]
-	ElementLine [-260.00mil 310.00mil 260.00mil 310.20mil 20.00mil]
-
-	)
-
 Element["" "CUI_PJ-202AH" "J2" "unknown" 5725.00mil 0.0000 240.00mil 10.00mil 3 100 ""]
 (
 	Pin[0.0000 540.00mil 175.00mil 20.00mil 195.00mil 125.00mil "" "1" ""]
@@ -1078,52 +986,6 @@ Element["" "0805" "R2" "1k" 5005.00mil 1145.00mil -31.50mil -96.50mil 0 100 ""]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 0.0000 57.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 10.00mil]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 10.00mil]
-
-	)
-
-Element["" "modular_6p6c_lp.fp" "J10" "unknown" 2490.00mil 320.00mil -23.43mil -30.00mil 0 100 ""]
-(
-	Attribute("author" "Alexander Kurz")
-	Attribute("copyright" "2009 Alexander Kurz")
-	Attribute("use-license" "Unlimited")
-	Attribute("dist-license" "CC-BY-SA-3.0")
-	Attribute("height" "11.5mm")
-	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
-	Pin[125.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
-	Pin[75.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
-	Pin[25.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
-	Pin[-25.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
-	Pin[-75.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
-	Pin[-125.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
-	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	ElementLine [-260.00mil -310.00mil -260.00mil 403.00mil 20.00mil]
-	ElementLine [260.00mil -310.00mil 260.00mil 403.00mil 20.00mil]
-	ElementLine [-260.00mil 403.00mil 260.00mil 403.00mil 20.00mil]
-	ElementLine [260.00mil -310.00mil -260.00mil -310.20mil 20.00mil]
-
-	)
-
-Element["" "modular_6p6c_lp.fp" "J11" "unknown" 2490.00mil 1150.00mil -23.43mil -30.00mil 0 100 ""]
-(
-	Attribute("author" "Alexander Kurz")
-	Attribute("copyright" "2009 Alexander Kurz")
-	Attribute("use-license" "Unlimited")
-	Attribute("dist-license" "CC-BY-SA-3.0")
-	Attribute("height" "11.5mm")
-	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
-	Pin[-125.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
-	Pin[-75.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
-	Pin[-25.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
-	Pin[25.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
-	Pin[75.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
-	Pin[125.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
-	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
-	ElementLine [260.00mil -403.00mil 260.00mil 310.00mil 20.00mil]
-	ElementLine [-260.00mil -403.00mil -260.00mil 310.00mil 20.00mil]
-	ElementLine [-260.00mil -403.00mil 260.00mil -403.00mil 20.00mil]
-	ElementLine [-260.00mil 310.00mil 260.00mil 310.20mil 20.00mil]
 
 	)
 
@@ -1237,20 +1099,148 @@ Element["" "#4 hex stand off" "" "" 3170.00mil 170.00mil 0.0000 100.00mil 0 100 
 	Pin[0.0000 0.0000 293.68mil 20.00mil 299.68mil 128.50mil "screw" "1" ""]
 
 	)
+
+Element["" "modular_6p6c_lp.fp" "J5" "unknown" 1440.00mil 1150.00mil -23.43mil -30.00mil 0 100 ""]
+(
+	Attribute("author" "Alexander Kurz")
+	Attribute("copyright" "2009 Alexander Kurz")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "CC-BY-SA-3.0")
+	Attribute("height" "11.5mm")
+	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
+	Pin[-125.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
+	Pin[-75.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
+	Pin[-25.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
+	Pin[25.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
+	Pin[75.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
+	Pin[125.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
+	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	ElementLine [260.00mil -403.00mil 260.00mil 310.00mil 20.00mil]
+	ElementLine [-260.00mil -403.00mil -260.00mil 310.00mil 20.00mil]
+	ElementLine [-260.00mil -403.00mil 260.00mil -403.00mil 20.00mil]
+	ElementLine [-260.00mil 310.00mil 260.00mil 310.20mil 20.00mil]
+
+	)
+
+Element["" "modular_6p6c_lp.fp" "J3" "unknown" 1440.00mil 320.00mil -23.43mil -30.00mil 0 100 ""]
+(
+	Attribute("author" "Alexander Kurz")
+	Attribute("copyright" "2009 Alexander Kurz")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "CC-BY-SA-3.0")
+	Attribute("height" "11.5mm")
+	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
+	Pin[125.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
+	Pin[75.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
+	Pin[25.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
+	Pin[-25.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
+	Pin[-75.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
+	Pin[-125.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
+	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	ElementLine [-260.00mil -310.00mil -260.00mil 403.00mil 20.00mil]
+	ElementLine [260.00mil -310.00mil 260.00mil 403.00mil 20.00mil]
+	ElementLine [-260.00mil 403.00mil 260.00mil 403.00mil 20.00mil]
+	ElementLine [260.00mil -310.00mil -260.00mil -310.20mil 20.00mil]
+
+	)
+
+Element["" "modular_6p6c_lp.fp" "J4" "unknown" 2040.00mil 320.00mil -23.43mil -30.00mil 0 100 ""]
+(
+	Attribute("author" "Alexander Kurz")
+	Attribute("copyright" "2009 Alexander Kurz")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "CC-BY-SA-3.0")
+	Attribute("height" "11.5mm")
+	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
+	Pin[125.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
+	Pin[75.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
+	Pin[25.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
+	Pin[-25.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
+	Pin[-75.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
+	Pin[-125.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
+	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	ElementLine [-260.00mil -310.00mil -260.00mil 403.00mil 20.00mil]
+	ElementLine [260.00mil -310.00mil 260.00mil 403.00mil 20.00mil]
+	ElementLine [-260.00mil 403.00mil 260.00mil 403.00mil 20.00mil]
+	ElementLine [260.00mil -310.00mil -260.00mil -310.20mil 20.00mil]
+
+	)
+
+Element["" "modular_6p6c_lp.fp" "J6" "unknown" 2040.00mil 1150.00mil -23.43mil -30.00mil 0 100 ""]
+(
+	Attribute("author" "Alexander Kurz")
+	Attribute("copyright" "2009 Alexander Kurz")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "CC-BY-SA-3.0")
+	Attribute("height" "11.5mm")
+	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
+	Pin[-125.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
+	Pin[-75.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
+	Pin[-25.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
+	Pin[25.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
+	Pin[75.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
+	Pin[125.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
+	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	ElementLine [260.00mil -403.00mil 260.00mil 310.00mil 20.00mil]
+	ElementLine [-260.00mil -403.00mil -260.00mil 310.00mil 20.00mil]
+	ElementLine [-260.00mil -403.00mil 260.00mil -403.00mil 20.00mil]
+	ElementLine [-260.00mil 310.00mil 260.00mil 310.20mil 20.00mil]
+
+	)
+
+Element["" "modular_6p6c_lp.fp" "J10" "unknown" 2640.00mil 320.00mil -23.43mil -30.00mil 0 100 ""]
+(
+	Attribute("author" "Alexander Kurz")
+	Attribute("copyright" "2009 Alexander Kurz")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "CC-BY-SA-3.0")
+	Attribute("height" "11.5mm")
+	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
+	Pin[125.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
+	Pin[75.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
+	Pin[25.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
+	Pin[-25.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
+	Pin[-75.00mil 350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
+	Pin[-125.00mil 250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
+	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	ElementLine [-260.00mil -310.00mil -260.00mil 403.00mil 20.00mil]
+	ElementLine [260.00mil -310.00mil 260.00mil 403.00mil 20.00mil]
+	ElementLine [-260.00mil 403.00mil 260.00mil 403.00mil 20.00mil]
+	ElementLine [260.00mil -310.00mil -260.00mil -310.20mil 20.00mil]
+
+	)
+
+Element["" "modular_6p6c_lp.fp" "J11" "unknown" 2640.00mil 1150.00mil -23.43mil -30.00mil 0 100 ""]
+(
+	Attribute("author" "Alexander Kurz")
+	Attribute("copyright" "2009 Alexander Kurz")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "CC-BY-SA-3.0")
+	Attribute("height" "11.5mm")
+	Attribute("ref" "Molex document number 50-95501-001 R/A low profile pc jack 4,6,8 ckrs site through hole version")
+	Pin[-125.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "1" "1" ""]
+	Pin[-75.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "2" "2" "thermal(1X)"]
+	Pin[-25.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "3" "3" ""]
+	Pin[25.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "4" "4" ""]
+	Pin[75.00mil -350.00mil 70.00mil 20.00mil 76.00mil 30.00mil "5" "5" ""]
+	Pin[125.00mil -250.00mil 70.00mil 20.00mil 76.00mil 30.00mil "6" "6" ""]
+	Pin[-200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	Pin[200.00mil 0.0000 144.00mil 20.00mil 150.00mil 128.00mil "" "" ""]
+	ElementLine [260.00mil -403.00mil 260.00mil 310.00mil 20.00mil]
+	ElementLine [-260.00mil -403.00mil -260.00mil 310.00mil 20.00mil]
+	ElementLine [-260.00mil -403.00mil 260.00mil -403.00mil 20.00mil]
+	ElementLine [-260.00mil 310.00mil 260.00mil 310.20mil 20.00mil]
+
+	)
 Layer(1 "top")
 (
 	Line[630.00mil 960.00mil 630.00mil 800.00mil 10.00mil 20.00mil "clearline"]
-	Line[1265.00mil 800.00mil 1265.00mil 960.00mil 10.00mil 20.00mil "clearline"]
-	Line[1865.00mil 800.00mil 1865.00mil 960.00mil 10.00mil 20.00mil "clearline"]
-	Line[1915.00mil 900.00mil 1915.00mil 995.00mil 10.00mil 20.00mil "clearline"]
 	Line[680.00mil 995.00mil 680.00mil 900.00mil 10.00mil 20.00mil "clearline"]
-	Line[1315.00mil 995.00mil 1315.00mil 900.00mil 10.00mil 20.00mil "clearline"]
-	Line[1915.00mil 510.00mil 1915.00mil 670.00mil 10.00mil 20.00mil "clearline"]
-	Line[1315.00mil 510.00mil 1315.00mil 670.00mil 10.00mil 20.00mil "clearline"]
-	Line[1265.00mil 475.00mil 1265.00mil 570.00mil 10.00mil 20.00mil "clearline"]
-	Line[1865.00mil 475.00mil 1865.00mil 570.00mil 10.00mil 20.00mil "clearline"]
-	Line[1565.00mil 510.00mil 1565.00mil 960.00mil 10.00mil 20.00mil "clearline"]
-	Line[1615.00mil 995.00mil 1615.00mil 475.00mil 10.00mil 20.00mil "clearline"]
 	Line[530.00mil 800.00mil 530.00mil 580.00mil 40.00mil 20.00mil "clearline"]
 	Line[530.00mil 580.00mil 405.00mil 455.00mil 40.00mil 20.00mil "clearline"]
 	Line[405.00mil 455.00mil 405.00mil 360.00mil 40.00mil 20.00mil "clearline"]
@@ -1272,68 +1262,13 @@ Layer(1 "top")
 	Line[5725.00mil 1095.00mil 5680.00mil 1140.00mil 40.00mil 20.00mil "clearline"]
 	Line[5680.00mil 1140.00mil 5405.00mil 1140.00mil 40.00mil 20.00mil "clearline"]
 	Line[5305.00mil 1220.00mil 5305.00mil 1140.00mil 10.00mil 20.00mil "clearline"]
-	Line[2875.00mil 655.00mil 4185.00mil 655.00mil 40.00mil 20.00mil "clearline"]
+	Line[3025.00mil 655.00mil 4185.00mil 655.00mil 40.00mil 20.00mil "clearline"]
 	Line[4480.00mil 1355.00mil 5355.00mil 1355.00mil 40.00mil 20.00mil "clearline"]
 	Line[5355.00mil 1355.00mil 5405.00mil 1305.00mil 40.00mil 20.00mil "clearline"]
 	Line[5405.00mil 1305.00mil 5405.00mil 1140.00mil 40.00mil 20.00mil "clearline"]
 	Line[4735.00mil 210.00mil 4635.00mil 110.00mil 40.00mil 20.00mil "clearline"]
-	Line[2465.00mil 800.00mil 2465.00mil 960.00mil 10.00mil 20.00mil "clearline"]
-	Line[2515.00mil 900.00mil 2515.00mil 995.00mil 10.00mil 20.00mil "clearline"]
-	Line[2515.00mil 510.00mil 2515.00mil 670.00mil 10.00mil 20.00mil "clearline"]
-	Line[2465.00mil 475.00mil 2465.00mil 570.00mil 10.00mil 20.00mil "clearline"]
-	Line[1950.00mil 1030.00mil 2480.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[2680.00mil 845.00mil 2680.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[2635.00mil 800.00mil 2680.00mil 845.00mil 40.00mil 20.00mil "clearline"]
-	Line[2565.00mil 800.00mil 2635.00mil 800.00mil 40.00mil 20.00mil "clearline"]
-	Line[2550.00mil 1030.00mil 2680.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[2535.00mil 1045.00mil 2550.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[2495.00mil 1045.00mil 2535.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
-	Line[2480.00mil 1030.00mil 2495.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
 	Line[950.00mil 1030.00mil 845.00mil 925.00mil 40.00mil 20.00mil "clearline"]
-	Line[1280.00mil 1030.00mil 950.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[1580.00mil 1030.00mil 1350.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[1650.00mil 1030.00mil 1880.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[1635.00mil 1045.00mil 1650.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[1595.00mil 1045.00mil 1635.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
-	Line[1580.00mil 1030.00mil 1595.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
-	Line[1935.00mil 1045.00mil 1950.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[1895.00mil 1045.00mil 1935.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
-	Line[1880.00mil 1030.00mil 1895.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
-	Line[1335.00mil 1045.00mil 1350.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[1295.00mil 1045.00mil 1335.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
-	Line[1280.00mil 1030.00mil 1295.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
-	Line[2080.00mil 845.00mil 2080.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[2035.00mil 800.00mil 2080.00mil 845.00mil 40.00mil 20.00mil "clearline"]
-	Line[1965.00mil 800.00mil 2035.00mil 800.00mil 40.00mil 20.00mil "clearline"]
-	Line[1480.00mil 845.00mil 1480.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
-	Line[1435.00mil 800.00mil 1480.00mil 845.00mil 40.00mil 20.00mil "clearline"]
-	Line[1365.00mil 800.00mil 1435.00mil 800.00mil 40.00mil 20.00mil "clearline"]
-	Line[2445.00mil 425.00mil 2645.00mil 425.00mil 40.00mil 20.00mil "clearline"]
-	Line[1100.00mil 440.00mil 1100.00mil 625.00mil 40.00mil 20.00mil "clearline"]
-	Line[1145.00mil 670.00mil 1100.00mil 625.00mil 40.00mil 20.00mil "clearline"]
-	Line[1145.00mil 670.00mil 1215.00mil 670.00mil 40.00mil 20.00mil "clearline"]
-	Line[2300.00mil 440.00mil 2300.00mil 625.00mil 40.00mil 20.00mil "clearline"]
-	Line[2345.00mil 670.00mil 2300.00mil 625.00mil 40.00mil 20.00mil "clearline"]
-	Line[2345.00mil 670.00mil 2415.00mil 670.00mil 40.00mil 20.00mil "clearline"]
-	Line[2430.00mil 440.00mil 1900.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[2445.00mil 425.00mil 2430.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[1580.00mil 440.00mil 1300.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[1830.00mil 440.00mil 1650.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[1595.00mil 425.00mil 1580.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[1595.00mil 425.00mil 1635.00mil 425.00mil 40.00mil 20.00mil "clearline"]
-	Line[1650.00mil 440.00mil 1635.00mil 425.00mil 40.00mil 20.00mil "clearline"]
-	Line[1845.00mil 425.00mil 1830.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[1845.00mil 425.00mil 1885.00mil 425.00mil 40.00mil 20.00mil "clearline"]
-	Line[1900.00mil 440.00mil 1885.00mil 425.00mil 40.00mil 20.00mil "clearline"]
-	Line[1100.00mil 440.00mil 1230.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[1245.00mil 425.00mil 1230.00mil 440.00mil 40.00mil 20.00mil "clearline"]
-	Line[1245.00mil 425.00mil 1285.00mil 425.00mil 40.00mil 20.00mil "clearline"]
-	Line[1300.00mil 440.00mil 1285.00mil 425.00mil 40.00mil 20.00mil "clearline"]
-	Line[1700.00mil 440.00mil 1700.00mil 625.00mil 40.00mil 20.00mil "clearline"]
-	Line[1745.00mil 670.00mil 1700.00mil 625.00mil 40.00mil 20.00mil "clearline"]
-	Line[1745.00mil 670.00mil 1815.00mil 670.00mil 40.00mil 20.00mil "clearline"]
-	Line[2645.00mil 425.00mil 2875.00mil 655.00mil 40.00mil 20.00mil "clearline"]
-	Line[2680.00mil 850.00mil 2875.00mil 655.00mil 40.00mil 20.00mil "clearline"]
+	Line[1430.00mil 1030.00mil 950.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
 	Line[5130.00mil 740.00mil 5130.00mil 570.00mil 10.00mil 20.00mil "clearline"]
 	Line[5180.00mil 775.00mil 5180.00mil 670.00mil 10.00mil 20.00mil "clearline"]
 	Line[126.2271mm 1145.00mil 126.2271mm 1250.00mil 10.00mil 20.00mil "clearline"]
@@ -1362,6 +1297,71 @@ Layer(1 "top")
 	Line[4895.00mil 1050.00mil 5060.00mil 1050.00mil 10.00mil 20.00mil ""]
 	Line[4365.00mil 180.00mil 4260.00mil 180.00mil 40.00mil 20.00mil "clearline"]
 	Line[4335.00mil 380.00mil 4260.00mil 380.00mil 40.00mil 20.00mil "clearline"]
+	Line[1415.00mil 800.00mil 1415.00mil 960.00mil 10.00mil 20.00mil "clearline"]
+	Line[2015.00mil 800.00mil 2015.00mil 960.00mil 10.00mil 20.00mil "clearline"]
+	Line[2065.00mil 900.00mil 2065.00mil 995.00mil 10.00mil 20.00mil "clearline"]
+	Line[1465.00mil 995.00mil 1465.00mil 900.00mil 10.00mil 20.00mil "clearline"]
+	Line[2065.00mil 510.00mil 2065.00mil 670.00mil 10.00mil 20.00mil "clearline"]
+	Line[1465.00mil 510.00mil 1465.00mil 670.00mil 10.00mil 20.00mil "clearline"]
+	Line[1415.00mil 475.00mil 1415.00mil 570.00mil 10.00mil 20.00mil "clearline"]
+	Line[2015.00mil 475.00mil 2015.00mil 570.00mil 10.00mil 20.00mil "clearline"]
+	Line[1715.00mil 510.00mil 1715.00mil 960.00mil 10.00mil 20.00mil "clearline"]
+	Line[1765.00mil 995.00mil 1765.00mil 475.00mil 10.00mil 20.00mil "clearline"]
+	Line[2615.00mil 800.00mil 2615.00mil 960.00mil 10.00mil 20.00mil "clearline"]
+	Line[2665.00mil 900.00mil 2665.00mil 995.00mil 10.00mil 20.00mil "clearline"]
+	Line[2665.00mil 510.00mil 2665.00mil 670.00mil 10.00mil 20.00mil "clearline"]
+	Line[2615.00mil 475.00mil 2615.00mil 570.00mil 10.00mil 20.00mil "clearline"]
+	Line[2100.00mil 1030.00mil 2630.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[2830.00mil 845.00mil 2830.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[2785.00mil 800.00mil 2830.00mil 845.00mil 40.00mil 20.00mil "clearline"]
+	Line[2715.00mil 800.00mil 2785.00mil 800.00mil 40.00mil 20.00mil "clearline"]
+	Line[2700.00mil 1030.00mil 2830.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[2685.00mil 1045.00mil 2700.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[2645.00mil 1045.00mil 2685.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[2630.00mil 1030.00mil 2645.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[1730.00mil 1030.00mil 1500.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[1800.00mil 1030.00mil 2030.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[1785.00mil 1045.00mil 1800.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[1745.00mil 1045.00mil 1785.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[1730.00mil 1030.00mil 1745.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[2085.00mil 1045.00mil 2100.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[2045.00mil 1045.00mil 2085.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[2030.00mil 1030.00mil 2045.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[1485.00mil 1045.00mil 1500.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[1445.00mil 1045.00mil 1485.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[1430.00mil 1030.00mil 1445.00mil 1045.00mil 40.00mil 20.00mil "clearline"]
+	Line[2230.00mil 845.00mil 2230.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[2185.00mil 800.00mil 2230.00mil 845.00mil 40.00mil 20.00mil "clearline"]
+	Line[2115.00mil 800.00mil 2185.00mil 800.00mil 40.00mil 20.00mil "clearline"]
+	Line[1630.00mil 845.00mil 1630.00mil 1030.00mil 40.00mil 20.00mil "clearline"]
+	Line[1585.00mil 800.00mil 1630.00mil 845.00mil 40.00mil 20.00mil "clearline"]
+	Line[1515.00mil 800.00mil 1585.00mil 800.00mil 40.00mil 20.00mil "clearline"]
+	Line[2595.00mil 425.00mil 2795.00mil 425.00mil 40.00mil 20.00mil "clearline"]
+	Line[1250.00mil 440.00mil 1250.00mil 625.00mil 40.00mil 20.00mil "clearline"]
+	Line[1295.00mil 670.00mil 1250.00mil 625.00mil 40.00mil 20.00mil "clearline"]
+	Line[1295.00mil 670.00mil 1365.00mil 670.00mil 40.00mil 20.00mil "clearline"]
+	Line[2450.00mil 440.00mil 2450.00mil 625.00mil 40.00mil 20.00mil "clearline"]
+	Line[2495.00mil 670.00mil 2450.00mil 625.00mil 40.00mil 20.00mil "clearline"]
+	Line[2495.00mil 670.00mil 2565.00mil 670.00mil 40.00mil 20.00mil "clearline"]
+	Line[2580.00mil 440.00mil 2050.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[2595.00mil 425.00mil 2580.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[1730.00mil 440.00mil 1450.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[1980.00mil 440.00mil 1800.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[1745.00mil 425.00mil 1730.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[1745.00mil 425.00mil 1785.00mil 425.00mil 40.00mil 20.00mil "clearline"]
+	Line[1800.00mil 440.00mil 1785.00mil 425.00mil 40.00mil 20.00mil "clearline"]
+	Line[1995.00mil 425.00mil 1980.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[1995.00mil 425.00mil 2035.00mil 425.00mil 40.00mil 20.00mil "clearline"]
+	Line[2050.00mil 440.00mil 2035.00mil 425.00mil 40.00mil 20.00mil "clearline"]
+	Line[1250.00mil 440.00mil 1380.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[1395.00mil 425.00mil 1380.00mil 440.00mil 40.00mil 20.00mil "clearline"]
+	Line[1395.00mil 425.00mil 1435.00mil 425.00mil 40.00mil 20.00mil "clearline"]
+	Line[1450.00mil 440.00mil 1435.00mil 425.00mil 40.00mil 20.00mil "clearline"]
+	Line[1850.00mil 440.00mil 1850.00mil 625.00mil 40.00mil 20.00mil "clearline"]
+	Line[1895.00mil 670.00mil 1850.00mil 625.00mil 40.00mil 20.00mil "clearline"]
+	Line[1895.00mil 670.00mil 1965.00mil 670.00mil 40.00mil 20.00mil "clearline"]
+	Line[2795.00mil 425.00mil 3025.00mil 655.00mil 40.00mil 20.00mil "clearline"]
+	Line[2830.00mil 850.00mil 3025.00mil 655.00mil 40.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[5590.00mil 805.00mil] [5255.00mil 805.00mil] [5255.00mil 1065.00mil] [5590.00mil 1065.00mil] 
@@ -1375,11 +1375,9 @@ Layer(2 "bottom")
 (
 	Line[3845.00mil 740.00mil 5130.00mil 740.00mil 10.00mil 20.00mil "clearline"]
 	Line[5180.00mil 775.00mil 3845.00mil 775.00mil 10.00mil 20.00mil "clearline"]
-	Line[1265.00mil 475.00mil 2465.00mil 475.00mil 10.00mil 20.00mil "clearline"]
-	Line[630.00mil 960.00mil 2465.00mil 960.00mil 10.00mil 20.00mil "clearline"]
-	Line[680.00mil 995.00mil 2515.00mil 995.00mil 10.00mil 20.00mil "clearline"]
-	Line[2470.00mil 475.00mil 2805.00mil 475.00mil 10.00mil 20.00mil "clearline"]
-	Line[1315.00mil 510.00mil 2805.00mil 510.00mil 10.00mil 20.00mil "clearline"]
+	Line[630.00mil 960.00mil 2615.00mil 960.00mil 10.00mil 20.00mil "clearline"]
+	Line[680.00mil 995.00mil 2665.00mil 995.00mil 10.00mil 20.00mil "clearline"]
+	Line[1465.00mil 510.00mil 2905.00mil 510.00mil 10.00mil 20.00mil "clearline"]
 	Line[800.00mil 800.00mil 730.00mil 800.00mil 40.00mil 20.00mil "clearline"]
 	Line[845.00mil 845.00mil 800.00mil 800.00mil 40.00mil 20.00mil "clearline"]
 	Line[845.00mil 925.00mil 845.00mil 845.00mil 40.00mil 20.00mil "clearline"]
@@ -1392,16 +1390,17 @@ Layer(2 "bottom")
 	Line[3795.00mil 725.00mil 3795.00mil 635.00mil 10.00mil 20.00mil "clearline"]
 	Line[3795.00mil 635.00mil 3740.00mil 580.00mil 10.00mil 20.00mil "clearline"]
 	Line[3740.00mil 580.00mil 3520.00mil 580.00mil 10.00mil 20.00mil "clearline"]
-	Line[2805.00mil 475.00mil 2940.00mil 340.00mil 10.00mil 20.00mil "clearline"]
-	Line[2940.00mil 340.00mil 3325.00mil 340.00mil 10.00mil 20.00mil "clearline"]
+	Line[3040.00mil 340.00mil 3325.00mil 340.00mil 10.00mil 20.00mil "clearline"]
 	Line[3760.00mil 120.00mil 3820.00mil 180.00mil 10.00mil 20.00mil "clearline"]
-	Line[2805.00mil 510.00mil 2950.00mil 365.00mil 10.00mil 20.00mil "clearline"]
-	Line[2950.00mil 365.00mil 3335.00mil 365.00mil 10.00mil 20.00mil "clearline"]
+	Line[3050.00mil 365.00mil 3335.00mil 365.00mil 10.00mil 20.00mil "clearline"]
 	Line[3335.00mil 365.00mil 3520.00mil 180.00mil 10.00mil 20.00mil "clearline"]
 	Line[3325.00mil 340.00mil 3465.00mil 200.00mil 10.00mil 20.00mil "clearline"]
 	Line[3465.00mil 200.00mil 3465.00mil 145.00mil 10.00mil 20.00mil "clearline"]
 	Line[3465.00mil 145.00mil 3490.00mil 120.00mil 10.00mil 20.00mil "clearline"]
 	Line[3760.00mil 120.00mil 3490.00mil 120.00mil 10.00mil 20.00mil "clearline"]
+	Line[2905.00mil 510.00mil 3050.00mil 365.00mil 10.00mil 20.00mil "clearline"]
+	Line[2905.00mil 475.00mil 3040.00mil 340.00mil 10.00mil 20.00mil "clearline"]
+	Line[1415.00mil 475.00mil 2905.00mil 475.00mil 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[395.00mil 525.00mil] [2360.00mil 525.00mil] [2360.00mil 945.00mil] [395.00mil 945.00mil] 
