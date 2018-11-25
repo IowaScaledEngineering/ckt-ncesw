@@ -821,6 +821,10 @@ Via[2615.00mil 960.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2665.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2665.00mil 510.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[2615.00mil 475.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[4915.00mil 950.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
+Via[4960.00mil 950.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
+Via[4960.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
+Via[4915.00mil 995.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 
 Element["" "TERMBLK2_200MIL" "J8" "unknown" 655.00mil 210.00mil -25.00mil -30.00mil 0 100 ""]
 (
@@ -1024,7 +1028,7 @@ Element["" "TERMBLK2_200MIL" "J9" "unknown" 4635.00mil 210.00mil -20.00mil -30.0
 
 	)
 
-Element["" "0805" "D2" "unknown" 5005.00mil 1250.00mil -0.8001mm 38.50mil 0 100 ""]
+Element["" "0805" "D2" "unknown" 5005.00mil 1250.00mil -31.50mil 38.50mil 0 100 ""]
 (
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "CATHODE" "1" "square"]
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "ANODE" "2" "square"]
@@ -1237,6 +1241,18 @@ Element["" "modular_6p6c_lp.fp" "J11" "unknown" 2640.00mil 1150.00mil -23.43mil 
 	ElementLine [-260.00mil 310.00mil 260.00mil 310.20mil 20.00mil]
 
 	)
+
+Element["" "SOD123" "D3" "unknown" 4850.00mil 875.00mil -175.00mil -35.00mil 0 100 ""]
+(
+	Pad[-65.00mil -6.00mil -65.00mil 6.00mil 36.00mil 20.00mil 42.00mil "1" "1" "square"]
+	Pad[64.00mil -6.00mil 64.00mil 6.00mil 36.00mil 0.0000 42.00mil "2" "2" "square"]
+	ElementLine [-99.00mil -40.00mil 98.00mil -40.00mil 10.00mil]
+	ElementLine [-99.00mil 40.00mil 98.00mil 40.00mil 10.00mil]
+	ElementLine [98.00mil -40.00mil 98.00mil 40.00mil 10.00mil]
+	ElementLine [-99.00mil -40.00mil -99.00mil 40.00mil 10.00mil]
+	ElementLine [30.00mil -40.00mil 30.00mil 40.00mil 10.00mil]
+
+	)
 Layer(1 "top")
 (
 	Line[630.00mil 960.00mil 630.00mil 800.00mil 10.00mil 20.00mil "clearline"]
@@ -1362,6 +1378,9 @@ Layer(1 "top")
 	Line[1895.00mil 670.00mil 1965.00mil 670.00mil 40.00mil 20.00mil "clearline"]
 	Line[2795.00mil 425.00mil 3025.00mil 655.00mil 40.00mil 20.00mil "clearline"]
 	Line[2830.00mil 850.00mil 3025.00mil 655.00mil 40.00mil 20.00mil "clearline"]
+	Line[4785.00mil 875.00mil 4685.00mil 875.00mil 10.00mil 20.00mil "clearline"]
+	Line[4685.00mil 875.00mil 4670.00mil 890.00mil 10.00mil 20.00mil "clearline"]
+	Line[4670.00mil 890.00mil 4670.00mil 950.00mil 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[5590.00mil 805.00mil] [5255.00mil 805.00mil] [5255.00mil 1065.00mil] [5590.00mil 1065.00mil] 
@@ -1369,6 +1388,10 @@ Layer(1 "top")
 	Polygon("clearpoly")
 	(
 		[5245.00mil 805.00mil] [5015.00mil 805.00mil] [5015.00mil 1190.00mil] [5245.00mil 1190.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[4885.00mil 820.00mil] [4990.00mil 820.00mil] [4990.00mil 1020.00mil] [4885.00mil 1020.00mil] 
 	)
 )
 Layer(2 "bottom")
@@ -1433,9 +1456,9 @@ Layer(5 "silk")
 	Text[190.00mil 1320.00mil 0 100 "Power" "clearline"]
 	Text[260.00mil 1385.00mil 0 100 "Cab" "clearline"]
 	Text[4840.00mil 510.00mil 2 100 "Power Pro" "clearline"]
-	Text[3540.00mil 1275.00mil 0 100 "CKT-NCESW  v1.0" "clearline"]
-	Text[3540.00mil 1025.00mil 0 100 "CC BY-SA (C) 2018" "clearline"]
-	Text[3540.00mil 1090.00mil 0 100 "Iowa Scaled Engineering" "clearline"]
+	Text[3545.00mil 1295.00mil 0 100 "CKT-NCESW  v1.0" "clearline"]
+	Text[3545.00mil 1090.00mil 0 100 "CC BY-SA (C) 2018" "clearline"]
+	Text[3545.00mil 1155.00mil 0 100 "Iowa Scaled Engineering" "clearline"]
 )
 NetList()
 (
@@ -1444,6 +1467,7 @@ NetList()
 		Connect("C1-2")
 		Connect("C2-2")
 		Connect("D2-1")
+		Connect("D3-2")
 		Connect("J1-2")
 		Connect("J2-2")
 		Connect("J2-3")
@@ -1461,6 +1485,7 @@ NetList()
 	)
 	Net("SW" "(unknown)")
 	(
+		Connect("D3-1")
 		Connect("K1-1")
 		Connect("K2-1")
 		Connect("S1-3")
